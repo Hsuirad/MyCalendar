@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Calendar</title>
+		
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
+	</head>
+
+	<body>
+		<h1>MyCalendar&trade; by Dariush Aligholizadeh</h1>
+		<p id = "instructions"><strong>Click on any day of the month and then add your events to it</strong></p>
+		<p class = "CHANGETHISWITHSOMEJAVSCRIPTANDARROWSLEFTANDRIGHTYOUIDIOT" id = "month"><i class = "fa fa-angle-double-left custom" style = "float: left;"></i>February<i class = "fa fa-angle-double-right custom" style = "float: right;"></i></p>
+		<div id = "prompt">
+			<label for = "text" id = "textlabel">PUT STUFF HERE</label>
+			<input type = "text" id = "input"></input>
+			<button id = "add"><i class="fa fa-pencil custom"></i></button>
+			<button id = "close"><i class = "fa fa-remove custom"></i></button>
+			<button id = "check">Check Events</button>
+			<p id = "status"></p> 
+		</div>
+		<table id = "calendar">
+			<tr id = "days"><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+			<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+			<tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+			<tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+			<tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+			<tr><td>29</td><td>30</td><td>31</td><td> </td><td> </td><td> </td><td> </td></tr>
+		</table>
+		<br /> <br /> <br /> <p id = "eventview"></p>
+		<script src = "index.js"></script>
+	</body>
+</html>
